@@ -1,14 +1,12 @@
-import Link from "next/link";
+import Layout from "../components/Layout";
 
 const About = () => (
-    <div>
-        <ul>
-            <li><Link href='/'><a>Home</a></Link></li>
-            <li><Link href='/about'><a>About</a></Link></li>
-        </ul>
-        <h1>About BitzPrices</h1>
-        <p>Application</p>
-    </div>
+    <Layout>
+        <div>
+            <h1>About BitzPrices</h1>
+            <p>Application</p>
+        </div>
+    </ Layout>
 )
 
 export default About
